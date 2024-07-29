@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+}
+
+#editor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 200px;
+    background-color: #282c34;
+    color: #61dafb;
+    overflow: auto;
+    white-space: pre-wrap;
+}
+
+#checkCode {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #61dafb;
+    color: white;
+    cursor: pointer;
+}
+
+#checkCode:hover {
+    background-color: #21a1f1;
+}
+
+#suggestions {
+    margin-top: 20px;
+}
